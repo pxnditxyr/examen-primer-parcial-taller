@@ -1,0 +1,26 @@
+:root {
+    font-family: "Red Hat Display", sans-serif;
+    --Pale-blue: hsl( 255, 100%, 94% );
+    --Brigth-blue: hsl( 245, 75%, 52% );
+    --Very-pale-blue: hsl( 255, 100%, 98% );
+    --Desaturated-blue: hsl( 224, 23%, 55% );
+    --Dark-blue: hsl( 223, 47%, 23% );
+
+    --a-color: hsl( 228, 45%, 44% );
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(Pale-blue);
+}
+
+.payment-card {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 85%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #fff;
+}
